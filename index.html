@@ -10,6 +10,72 @@
   <title>Tish International</title>
 </head>
 <style>
+  html{
+  box-sizing: border-box;
+}
+*,
+*:before
+*:after{
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #FFF;
+  -webkit-font-smoothing: antialiased;
+}
+a{color: #fff; text-decoration: none;}
+li{list-style: none;}
+.header{
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+/*navigation*/
+.navigation{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  opacity: 1;
+  visibility:visible;
+  transform: translateY(105%);
+}
+.navigation .navigation_ul{
+  width: 100%;
+  background-color:hsl(91, 78%, 37%);
+  color:#fff;
+}
+
+.navigation .navigation_ul li{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.navigation .navigation_ul li:last-child{
+
+  margin-bottom: 0;
+}
+
+.navigation .navigation_ul a{
+  letter-spacing: .2em;
+  padding: 0;
+  text-transform: uppercase;
+  transition: all.3s ease-in-out;
+}
+
+.navigation .navigation_ul a:hover{
+  color:#fff;
+}
+
+
 *{
   box-sizing: border-box;
 }
@@ -58,6 +124,38 @@
 </style>
 <body>
 <div class="container">
+<header class="header">
+
+    <section class="logo">&Tscr; &iscr;</section>
+
+    <section class="nav-icon">
+      <span class="icon"></span>
+    </section>
+
+    <section class="nav-overlay"></section>
+
+    <nav class="navigation">
+      <ul class="navigation_ul">
+        <main class="main-content">
+        <h1>Tish<i class="fa fa-trademark" style="font-size: 8px;"></i></h1><br>
+        <p>A variety of better living solutions<br>
+           for seniors and those with<br>
+           limited mobility - to help them<br>
+         get around easier and with less pain.</p><br>
+       </main>
+        <li><a href="#">Tish Gear<i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+        <li><a href="#">Tish Nutraceuticals<i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+        <li><a href="#">Tish Tuck<i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+        <li><a href="#">Tish Heal<i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+        <li><a href="#">Tish Cush<i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+        <li><a href="#">Tish Glide<i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+        <li><a href="#">Tish Push<i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+        <li><a href="#">Tish Stretch<sub>ti1</sub><i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+        <li><a href="#">Tish Stretch<sub>ti2</sub><i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+        <li><a href="#">Tish Squish<sub>ti1</sub><i class="fa fa-trademark" style="font-size: 8px;"></i></a></li>
+      </ul>
+    </nav>
+  </header>
     <div class="row">
       <div class="column">
           <img src="img/tishgear_guy.jpg" alt="" height="350px" width="100%";>
